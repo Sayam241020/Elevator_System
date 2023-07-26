@@ -37,7 +37,7 @@ python manage.py runserver
 
 4. The elevator is running in a different thread and processes all the requests immediately. Check [Elevator/move_elevator.py](https://github.com/Sayam241020/Elevator_System/blob/main/core/move_elevator.py) and [Elevator/apps.py](https://github.com/Sayam241020/Elevator_System/blob/main/core/apps.py) to know more details.
 
-5. sqlite3 DB is used for portability in GitHub. Postgres code is also given below you can replace it at [Elevator/settings.py](https://github.com/Sayam241020/Elevator_System/blob/main/Elevator/settings.py).
+5. sqlite3 DB is used for portability in GitHub. Postgres code is also given below you can replace it at [Elevator_System/settings.py](https://github.com/Sayam241020/Elevator_System/blob/main/Elevator/settings.py).
 ```
 DATABASES = {
    'default': {
