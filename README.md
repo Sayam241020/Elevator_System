@@ -14,7 +14,7 @@ Some of the packages are not up-to date with python 3.9 or 3.10
 git clone https://github.com/Akash-Kumar-Sen/Elevator-problem.git
 ```
 ```
-cd Elevator-problem
+cd Elevator-System
 ```
 
 3. Please read the special note point number 2 below, and go through the entire notes once.
@@ -34,9 +34,9 @@ python manage.py runserver
 
 2. Redis caching is done for the entire site with a time limit of 5 minutes, so if you update the DB the changes in a cached device will appear 5 minutes later.
 
-3. Please make sure redis is installed and running in your device. If it is running in a different port than 6379 then please go to [Elevator/Settings.py](https://github.com/Akash-Kumar-Sen/Elevator-problem/blob/main/Elevator/settings.py) and update it at line number : 158.
+3. Please make sure redis is installed and running in your device. If it is running in a different port than 6379 then please go to [Elevator_System/Settings.py](https://github.com/Akash-Kumar-Sen/Elevator-problem/blob/main/Elevator/settings.py) and update it at line number : 158.
 
-4. The elevator is running in a different thread and processes all the requests immediately. Check [core/move_elevator.py](https://github.com/Akash-Kumar-Sen/Elevator-problem/blob/main/core/move_elevator.py) and [core/apps.py](https://github.com/Akash-Kumar-Sen/Elevator-problem/blob/main/core/apps.py) to know more details.
+4. The elevator is running in a different thread and processes all the requests immediately. Check [core/move_elevator.py](https://github.com/Akash-Kumar-Sen/Elevator-problem/blob/main/core/move_elevator.py) and [Elevator/apps.py](https://github.com/Akash-Kumar-Sen/Elevator-problem/blob/main/core/apps.py) to know more details.
 
 5. sqlite3 DB is used for portability in GitHub. Postgres code is also given below you can replace it at [Elevator/settings.py-line-95](https://github.com/Akash-Kumar-Sen/Elevator-problem/blob/main/Elevator/settings.py#L95).
 ```
