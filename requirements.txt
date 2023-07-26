@@ -1,0 +1,13 @@
+asgiref
+async-timeout
+Deprecated
+Django
+django-filter
+djangorestframework
+packaging
+pyparsing
+pytz
+redis
+sqlparse
+wrapt
+psycopg2
