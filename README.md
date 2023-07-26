@@ -13,7 +13,7 @@ Some of the packages are not up-to date with python 3.9 or 3.10
 git clone https://github.com/Sayam241020/Elevator_System.git
 ```
 ```
-cd Elevator-System
+cd Elevator_System
 ```
 
 3. Please read the special note point number 2 below, and go through the entire notes once.
